@@ -23,7 +23,9 @@ function App() {
   const { toggleSmoothScrolling } = useLenis();
 
 
-
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []); 
   
 
 
